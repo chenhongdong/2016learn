@@ -1,0 +1,26 @@
+{
+  "name": "2016learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenhongdong/2016learn.git"
+  },
+  "keywords": [
+    "Learn"
+  ],
+  "author": "Thanatos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenhongdong/2016learn/issues"
+  },
+  "homepage": "https://github.com/chenhongdong/2016learn#readme",
+  "dependencies": {
+    "babel-loader": "^6.2.8",
+    "react": "^15.4.0"
+  }
+}
