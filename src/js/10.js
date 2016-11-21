@@ -9,16 +9,17 @@ var Focus = React.createClass({
             value: 'o(>﹏<)o千万别'
         }
     },
-    handelClick(){
-        console.log(this.props.value)
-        console.log(this.refs.msg.value);       //o(>﹏<)o千万别
+    handleClick(){
+
+        console.log(this.refs.msg.value);
         this.refs.msg.focus();
+        
     },
     render(){
         return (
            <div>
-               <input type="text" ref="msg" value={this.state.value}/>
-               <button onClick={this.handelClick}>获取</button>
+               <input type="text" ref="msg" value={this.props.value} onChange={this.handleClick}/>
+               <button onClick={this.handleClick}>获取</button>
            </div>
         )
     }
